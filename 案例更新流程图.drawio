@@ -1,9 +1,105 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.15">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.16">
   <diagram name="第 1 页" id="jGavLHYiE-4k9i0iqGRp">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="160" pageHeight="180" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2JdltcTigh_M7HLnSCEa-1" value="评估是否需要进行案例更新" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;fontFamily=华文宋体;" vertex="1" parent="1">
+          <mxGeometry x="383" y="20" width="252" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="2JdltcTigh_M7HLnSCEa-2" value="显式反馈驱动：用户手动确认方案有效性" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;fontFamily=华文宋体;" vertex="1" parent="1">
+          <mxGeometry x="30" y="124" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="2JdltcTigh_M7HLnSCEa-3" value="隐式性能驱动：比较当前方案与历史最佳性能" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;fontFamily=华文宋体;" vertex="1" parent="1">
+          <mxGeometry x="663" y="124" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="2JdltcTigh_M7HLnSCEa-4" value="自动比较性能指标" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;fontFamily=华文宋体;" vertex="1" parent="1">
+          <mxGeometry x="340" y="264" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="2JdltcTigh_M7HLnSCEa-5" value="满足性能阈值触发案例新增" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;fontFamily=华文宋体;" vertex="1" parent="1">
+          <mxGeometry x="308" y="380" width="252" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="2JdltcTigh_M7HLnSCEa-6" value="新增案例到案例库" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;fontFamily=华文宋体;" vertex="1" parent="1">
+          <mxGeometry x="340" y="484" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="2JdltcTigh_M7HLnSCEa-7" value="用户确认方案，直接存入案例库" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;fontFamily=华文宋体;" vertex="1" parent="1">
+          <mxGeometry x="20" y="252" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="2JdltcTigh_M7HLnSCEa-8" value="根据评估结果修改或新增案例" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;fontFamily=华文宋体;" vertex="1" parent="1">
+          <mxGeometry x="671" y="252" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="2JdltcTigh_M7HLnSCEa-9" value="修改现有案例" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;fontFamily=华文宋体;" vertex="1" parent="1">
+          <mxGeometry x="610" y="380" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="2JdltcTigh_M7HLnSCEa-10" value="新增案例" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;fontFamily=华文宋体;" vertex="1" parent="1">
+          <mxGeometry x="816" y="380" width="124" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="2JdltcTigh_M7HLnSCEa-11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.85;entryX=0.5;entryY=0;rounded=0;fontSize=17;fontFamily=华文宋体;" edge="1" parent="1" source="2JdltcTigh_M7HLnSCEa-1" target="2JdltcTigh_M7HLnSCEa-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="99" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2JdltcTigh_M7HLnSCEa-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.93;entryX=0.5;entryY=0;rounded=0;fontSize=17;fontFamily=华文宋体;" edge="1" parent="1" source="2JdltcTigh_M7HLnSCEa-1" target="2JdltcTigh_M7HLnSCEa-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="793" y="99" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2JdltcTigh_M7HLnSCEa-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.8;entryX=0.52;entryY=0;rounded=0;fontSize=17;fontFamily=华文宋体;" edge="1" parent="1" source="2JdltcTigh_M7HLnSCEa-3" target="2JdltcTigh_M7HLnSCEa-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="442" y="227" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2JdltcTigh_M7HLnSCEa-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=17;fontFamily=华文宋体;" edge="1" parent="1" source="2JdltcTigh_M7HLnSCEa-4" target="2JdltcTigh_M7HLnSCEa-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2JdltcTigh_M7HLnSCEa-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=17;fontFamily=华文宋体;" edge="1" parent="1" source="2JdltcTigh_M7HLnSCEa-5" target="2JdltcTigh_M7HLnSCEa-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2JdltcTigh_M7HLnSCEa-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.48;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=17;fontFamily=华文宋体;" edge="1" parent="1" source="2JdltcTigh_M7HLnSCEa-2" target="2JdltcTigh_M7HLnSCEa-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="227" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2JdltcTigh_M7HLnSCEa-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.84;exitY=1;entryX=0;entryY=0.28;rounded=0;fontSize=17;fontFamily=华文宋体;" edge="1" parent="1" source="2JdltcTigh_M7HLnSCEa-2" target="2JdltcTigh_M7HLnSCEa-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="305" y="227" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2JdltcTigh_M7HLnSCEa-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.52;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=17;fontFamily=华文宋体;" edge="1" parent="1" source="2JdltcTigh_M7HLnSCEa-3" target="2JdltcTigh_M7HLnSCEa-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="803" y="227" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2JdltcTigh_M7HLnSCEa-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.24;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=17;fontFamily=华文宋体;" edge="1" parent="1" source="2JdltcTigh_M7HLnSCEa-8" target="2JdltcTigh_M7HLnSCEa-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="688" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2JdltcTigh_M7HLnSCEa-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.68;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=17;fontFamily=华文宋体;" edge="1" parent="1" source="2JdltcTigh_M7HLnSCEa-8" target="2JdltcTigh_M7HLnSCEa-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="878" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
